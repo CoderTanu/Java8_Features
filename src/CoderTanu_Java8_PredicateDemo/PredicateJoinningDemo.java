@@ -15,7 +15,7 @@ public class PredicateJoinningDemo {
 	System.out.println("ans " + checkEvenLegth.test("coder tanu"));
 	
 	//and joining
-	System.out.println("after merging with and " + ans.and(checkEvenLegth).test("Coder Tanu"));
+	System.out.println("after merging with and " + ans.and(checkEvenLegth).test("coder tanu"));
 	
 	//or joining
 	System.out.println("after merging with or " + ans.or(checkEvenLegth).test("Coder Tanu"));
